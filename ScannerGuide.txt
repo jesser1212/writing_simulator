@@ -1,0 +1,58 @@
+{
+	"Priorities": ["goal", "failure", "success", "obstacle", "support", "subgoal", "protagonist", "antagonist", "support_character1", "support_character2", "support_character3", "ant_character1", "ant_character2"],
+	"LongBook": {
+
+		
+		
+		"protagonist": ["Jim Hawkins", "Jim", "Jimmy", "Hawkins"],
+		"antagonist": ["Long John Silver", "Johnny", "Silver", "Long John"],
+		"support_character1": ["Dr. Livesey", "Doctor", "Livesey"],
+		"support_character2":["Captain Smollett", "Smollett"],
+		"support_character3":["Benjamin Gunn", "Ben", "Benjamin"],
+		"ant_character1": ["Blind Pew", "Pew"],
+		"ant_character2": ["Israel Hands", "Israel", "Mr. Hands"],
+		
+		"goal": ["treasure", "the chest", "the gold", "rich"] ,
+		"failure": ["mutiny", "death", "drown", "revolt", "defeat"] ,
+		"success": ["rich", "safe", "passage", "victory"],
+		"obstacle": ["pirates", "buccaneers", "mutineer", "pirate", "buccaneer", "enemy", "enemies", "black spot", "black flag"] ,
+		"support": ["treasure map", "the way", "Treasure Island", "ship", "sails", "seas", "land", "sand"],
+		"subgoal": ["family", "happy", "home", "mother", "mom", "friends"]
+
+
+	},
+	"ShortBook":{
+		"protagonist": ["Sherlock Holmes", "Holmes", "Sherlock", "detective"],
+		"antagonist": ["Professor Moriarty", "The Professor", "Moriarty", "Professor"],
+		"support_character1": ["I", "me", "Watson", "my dear", "doctor"],
+		"support_character2":["brother", "Mycroft", "Mycroft Holmes"],
+		"support_character3":["inspector,", "police force", "Scotland Yard"],
+		"ant_character1": ["a rough", "bludgeon", "bludgeon-man", "massive driver"],
+		"ant_character2": [],
+		
+		"goal": ["solve", "the dock", "imprison", "prove", "solved", "beat"] ,
+		"failure": ["death", "fail", "escape", "pain", "final", "fall"] ,
+		"success": ["end", "catch", "imprison", "win", "victory"],
+		"obstacle": ["fall", "fight", "death", "struggle", "Valley", "enemy", "gang", "lose", "ledge", "cliff"] ,
+		"support": ["clues", "observe", "details", "solve", "learn", "police", "think", "see"],
+		"subgoal": ["Baker Street", "wife", "home", "career", "friend", "colleague", "chess", "game"]
+	},
+
+	"NewBook":{
+		"protagonist": ["Gregorio", "Greg", "Greg"],
+		"antagonist": ["Theo the V", "Theo", "The Leader", "Theo the Leader"],
+		"support_character1": ["Mr. Martin", "Mister", "Martin"],
+		"support_character2":["Captain Gillough", "Gillough"],
+		"support_character3":["Aran", "Ara", "Aran the Sword"],
+		"ant_character1": ["Dead Shae", "Shae"],
+		"ant_character2": ["J. Jackson", "Jackson", "Jacky"],
+		
+		"goal": ["justice", "the law", "the obedience", "peace", "honesty"] ,
+		"failure": ["broken", "injustice", "rebellion", "revolt", "defeat"] ,
+		"success": ["victory", "order", "truth", "honest"],
+		"obstacle": ["rebels", "deceivers", "harbinger", "rebel", "deceiver", "enemy", "foes", "gold death", "white flag"] ,
+		"support": ["Legislation", "the path", "Order Archetype", "ship", "sails", "seas", "land", "sand"],
+		"subgoal": ["peace", "zen", "home", "bliss", "calm"]
+	}
+	
+}
