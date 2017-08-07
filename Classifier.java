@@ -47,7 +47,7 @@ public class Classifier {
     /**
      *
      * @return the LongBook's sentences, modified with the new words and associated with their classifications
-     * TODO: this is adding one sentence to multiple categories.
+     *
      */
     public TreeMap<String, ArrayList<ModifiedSentence>> modifyAndCategorize(String[] largeBook, TreeMap<String, ArrayList<String>> categories, ArrayList<String> priorities)
     {
