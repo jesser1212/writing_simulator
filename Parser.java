@@ -26,7 +26,7 @@ public class Parser {
     private TreeMap<String, ArrayList<String>> newCategories = new TreeMap<>();
     private ArrayList<String> priorities;
 
-    /*
+    /**
     This function breaks apart the JSON file. The file itself should always have a NewBook, LongBook, and ShortBook object.
     This results in this Parser object taking priorities, and the categories and associated words for each book.
      */
@@ -80,7 +80,7 @@ public class Parser {
 
     }
 
-    /*
+    /**
     This gathers the priorities of whatever book we pass in. Look for the usage of this function (in parseTheFile())
      */
     public void gatherPriorities(JSONArray prioritiesObject)
@@ -94,8 +94,9 @@ public class Parser {
 
     }
 
-    /*
+    /**
     This gathers the categories and their associated words for whatever object is passed in. This should be done on all 3 books.
+     @return the categories with their associated words
      */
     public TreeMap<String, ArrayList<String>> gatherCategories(JSONObject originalObject)
     {
