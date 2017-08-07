@@ -51,7 +51,7 @@ public class ReadWriter {
      * This ensures new files (instead of replacing one story with another).
      * @param path
      * @param text
-     * @return
+     * @return if the writing was successful
      */
     public boolean writeToPath(String path, String text)
     {
