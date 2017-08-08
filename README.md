@@ -1,5 +1,5 @@
 # writing_simulator
-A program that simulates writing by combining user-specified elements of public domain works.
+A program that simulates writing by combining user-specified elements of public domain works. The purpose of this program is to create a new story by using the sentences of one longer book from the public domain, following the sentence category order of a smaller book from the public domain, and replacing key terms with new words specified by the user. Though it currently presents a fairly nonsensical story, it does provide an interesting look at the structure of the works being used and often provides entertaining passages, if not chapters. 
 
 To run this program: 
 1. Download the java files. 
@@ -45,5 +45,5 @@ To run this program:
 4. Run the Main class's main function, following the execution with the command arguments [json file] [longbook text] [shortbook text] [name of new book] (for example, to run the files offered in this repository, one might run the program with this command: "./main ScannerGuide.txt TreasureIslandFull.txt TheFinalProblemFullText.txt TreasureIslandMixHolmes"). 
 
 
-*This format demands that you have the fields "Priorities" (with an array of Strings) and "Longbook", "Shortbook", and "Newbook" (each a JSONObject containing several objects associated with an array of Strings). Make sure that you have the same categories for each of these books, and that the associated words match the order given (for example, a formal key term like "Mr. Hawkins" might be replaced in the newbook with another term that is also formal, e.g. "Mr. Smith" instead of "John"). <br />
+*This format requires the fields "Priorities" (with an array of Strings) and "Longbook", "Shortbook", and "Newbook" (each a JSONObject containing several objects associated with an array of Strings). Make sure that you have the same categories for each of these books, and that the associated words match the order given (for example, a formal key term like "Mr. Hawkins" might be replaced in the newbook with another term that is also formal, e.g. "Mr. Smith" instead of "John"). <br />
 **This program runs more effectively when you have one work that is longer than the other and enter it as the "longbook text" argument in step 4.
