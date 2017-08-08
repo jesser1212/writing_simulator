@@ -18,6 +18,13 @@ public class Organizer {
 
     }
 
+    /**
+     * Iterates through the entire order of the Small book's categories and finds the most relevant modified sentences
+     * from the Large book.
+     * @param categoryOrder
+     * @param categorizedSentences
+     * @return the compiled String of a full book using the Small book's categorical order with the Large book's prose and the new book's key terms.
+     */
     public String organizeFullBook(ArrayList<String> categoryOrder, TreeMap<String, ArrayList<ModifiedSentence>> categorizedSentences)
     {
         StringBuilder newBook = new StringBuilder();
@@ -55,7 +62,7 @@ public class Organizer {
      * @param currentCategory
      * @param categorizedSentences
      * @param smallBookIndex
-     * @return
+     * @return a sentence relating to the given currentCategory that is closest to a range within the large book corresponding to the relative location of the original sentence in the small book
      */
     private String findRelevantSentence(String currentCategory, TreeMap<String, ArrayList<ModifiedSentence>> categorizedSentences, int smallBookIndex)
     {
@@ -96,7 +103,7 @@ public class Organizer {
      * It can do so in log(n) time, though it calls linearLeastUsedSearch() if the found sentence has already been used.
      * @param seekingIndex
      * @param sentenceGroup
-     * @return
+     * @return the String of the sentence found to be closest (or least used and closest) to the seekingIndex
      */
     private String binarySearchForSentence(int seekingIndex, ArrayList<ModifiedSentence> sentenceGroup)
     {
@@ -181,7 +188,7 @@ public class Organizer {
      * that are the lowest value in the group, this function prioritizes those closest to the original index.
      * @param currentIndex
      * @param sentenceGroup
-     * @return
+     * @return the index of the least used sentence in the given group
      */
     public int linearLeastUsedSearch(int currentIndex, ArrayList<ModifiedSentence> sentenceGroup)
     {
